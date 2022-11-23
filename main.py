@@ -312,7 +312,7 @@ sid=""
 if temperature1>=23:
   sid="[室外温度较高，注意喝水哦]"
 elif temperature1<=17:
-  sid="[室外温度过低，记得多穿点衣服保暖]"
+  sid="[室外温度过低，记得多穿点衣服保暖，照顾好自己]"
 else:
   sid="[温度不高不低，但也要注意及时补水哦]"
 
@@ -379,8 +379,8 @@ for i in range(0,len(user_id1)):
 今日天气：{{weather1.DATA}} 
 当前温度：{{temperature1.DATA}} 
 {{sid.DATA}} 
-距离领导的生日还有{{birthday_lover.DATA}}天 
-距离秘书的生日还有{{birthday_my.DATA}}天 
+距离小琳生日还有{{birthday_lover.DATA}}天 
+距离小琳回家还有{{birthday_my.DATA}}天 
 距离元旦还有{{yd.DATA}}天 
 距离春节还有{{cj.DATA}}天 
 ===家乡:{{city2.DATA}} 天气:{{weather2.DATA}}=== 
